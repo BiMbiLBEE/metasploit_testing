@@ -1,5 +1,35 @@
 # metasploit
 
+## Задача 1 - Сканування мережі
+
+### Для тесту вибрав веб сайт http://testasp.vulnweb.com/
+
+### 1. Сканування
+
+---
+
+<img width="1871" height="276" alt="Screenshot_28-Feb_01-04-28_kitty (Edited)" src="https://github.com/user-attachments/assets/22ccedeb-c82f-49a4-8ea5-d16ca88b2b12" />
+
+---
+
+### Виявлено веб сервер - Microsoft-IIS/8.5
+
+### 2. Перегляд можливих вразливостей
+
+---
+
+<img width="1865" height="321" alt="Screenshot_28-Feb_01-04-28_kitty" src="https://github.com/user-attachments/assets/710b65f4-f458-486b-96ac-43aa0a230817" />
+
+---
+
+### 3. Результат
+   сервер:
+    - SERVER: Microsoft-IIS/8.5
+    - X-POWERED-BY: ASP.NET
+   вразливість:
+    - XSLT Transform Remote Code Execution
+
+
 ## Задача 2 - вредоносний payload
 
 ### 1. Створення обфускованого payload-у
@@ -36,13 +66,13 @@
 
 ## Задача 3 - фішинговий сайт
 
-### - Створення тестового сайту та отриманий пароль
+### 1. Створення тестового сайту та отриманий пароль
 
 <img width="949" height="335" alt="Screenshot_28-Feb_00-10-27_kitty" src="https://github.com/user-attachments/assets/71c18769-8895-42e6-a59b-5b5883023efe" />
 
 --- 
 
-### Поле вводу пароля
+### 2. Поле вводу пароля зі сторони жертви
 
 <img width="1442" height="436" alt="Screenshot_28-Feb_00-10-12_firefox" src="https://github.com/user-attachments/assets/0c499f64-5409-41b1-b001-3b83e8261a9e" />
 
